@@ -41,57 +41,73 @@
     
 
     <!-- SLIDES -->
-    <slide class="" id="slide-1" style="background:;">
+    <slide class="class" id="id" style="background:;">
   <hgroup>
-    <h2>Read-And-Delete</h2>
+    <h2>The Problem</h2>
   </hgroup>
   <article data-timings="">
     <ol>
-<li>Edit YAML front matter</li>
-<li>Write using R Markdown</li>
-<li>Use an empty line followed by three dashes to separate slides!</li>
+<li>Basketball is a sport played for fun</li>
+<li>But if you are bad at basketball it can be embarrassing to play with friends</li>
+<li>When will I be good enough to play basketball in public?</li>
 </ol>
 
   </article>
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="class" id="id" style="background:;">
+<slide class="" id="slide-2" style="background:;">
   <hgroup>
-    <h2>Slide 2</h2>
+    <h2>The Solution</h2>
   </hgroup>
   <article data-timings="">
-    
+    <p>Predict when I will be good enough using a model fitted to historical data. </p>
+
+<iframe width='100%' height='300' src='https://en.wikipedia.org/wiki/Predictive_modelling' frameborder='0'></iframe>
+
   </article>
   <!-- Presenter Notes -->
 </slide>
 
 <slide class="" id="slide-3" style="background:;">
   <hgroup>
-    <h2>Slide 3</h2>
+    <h2>The Data</h2>
   </hgroup>
   <article data-timings="">
-    
+    <p>Luckily I have built up a small record of my basketball accuracy over time. Each data point shows how many shots I sunk (out of ten), a fixed distance from the hoop. There are 79 recorded attempts.
+<img src="assets/fig/simple-plot-1.png" title="plot of chunk simple-plot" alt="plot of chunk simple-plot" style="display: block; margin: auto;" />
+This data can be used to predict when I will be good at basketball!</p>
+
   </article>
   <!-- Presenter Notes -->
 </slide>
 
 <slide class="" id="slide-4" style="background:;">
   <hgroup>
-    <h2>Slide 4</h2>
+    <h2>The Shiny App</h2>
   </hgroup>
   <article data-timings="">
-    
-  </article>
-  <!-- Presenter Notes -->
-</slide>
+    <p>Please go here to view my app:
+<a href="https://tim-fan.shinyapps.io/basketball-accuracy">https://tim-fan.shinyapps.io/basketball-accuracy</a></p>
 
-<slide class="" id="slide-5" style="background:;">
-  <hgroup>
-    <h2>Slide 5</h2>
-  </hgroup>
-  <article data-timings="">
-    
+<p>The app will allow you to</p>
+
+<ul>
+<li>View the data, plotted either by date or by number of attempts</li>
+<li>Fit a polynomial to the data to predict when I will sink 10/10 shots</li>
+</ul>
+
+<p>Extras:</p>
+
+<ul>
+<li><p>Source for the shiny app:</p>
+
+<p><a href="https://github.com/tim-fan/datasciencecoursera/tree/master/dataProducts/courseProject1/basketball-accuracy">https://github.com/tim-fan/datasciencecoursera/tree/master/dataProducts/courseProject1/basketball-accuracy</a></p></li>
+<li><p>Source for this presentation: </p>
+
+<p><a href="https://github.com/tim-fan/slidifyPitch/tree/gh-pages">https://github.com/tim-fan/slidifyPitch/tree/gh-pages</a></p></li>
+</ul>
+
   </article>
   <!-- Presenter Notes -->
 </slide>
@@ -102,32 +118,26 @@
     <ul>
       <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=1 title='Read-And-Delete'>
+        data-slide=1 title='The Problem'>
          1
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=2 title='Slide 2'>
+        data-slide=2 title='The Solution'>
          2
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=3 title='Slide 3'>
+        data-slide=3 title='The Data'>
          3
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=4 title='Slide 4'>
+        data-slide=4 title='The Shiny App'>
          4
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=5 title='Slide 5'>
-         5
       </a>
     </li>
   </ul>
